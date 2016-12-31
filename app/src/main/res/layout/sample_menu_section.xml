@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.neverwasradio.neverwasplayer.UI.CustomView.MenuSection
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66b3ff"
+        android:paddingBottom="40dp"
+        android:paddingLeft="20dp"
+        app:menuSectionBackground="#33b5e5"
+        app:menuSectionDimension="24sp"
+        app:menuSectionIcon="@android:drawable/ic_menu_add"
+        app:menuSectionSquare="true"
+        app:menuSectionLabel="Prova" />
+
+</FrameLayout>

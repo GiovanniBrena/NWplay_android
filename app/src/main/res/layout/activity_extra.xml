@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neverwasradio.neverwasplayer.UI.Activities.ExtraActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:paddingTop="36dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:id="@+id/extraRateIcon"
+                    android:src="@drawable/rate_icon"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:id="@+id/extraRateLb"
+                    android:src="@drawable/social_tw"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/extraRateIcon"
+                    android:layout_toEndOf="@+id/extraRateIcon"
+                    android:text="Vota app"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:paddingLeft="16dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:id="@+id/extraShareIcon"
+                    android:src="@drawable/share_icon"
+                    android:layout_below="@+id/extraRateIcon"
+                    android:layout_alignLeft="@+id/extraRateIcon"
+                    android:layout_alignStart="@+id/extraRateIcon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
+                    android:id="@+id/extraShareLb"
+                    android:src="@drawable/social_insta"
+                    android:layout_below="@+id/extraRateLb"
+                    android:layout_alignLeft="@+id/extraRateLb"
+                    android:layout_alignStart="@+id/extraRateLb"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Condividi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Dati in memoria:"
+                android:id="@+id/extraMemoryLabel"
+                android:layout_marginTop="32dp" />
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="#5f5f5f"
+                android:padding="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/clearDbButton" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Elimina Dati"
+                    android:id="@+id/textView23"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#ffffff" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="#5f5f5f"
+                android:padding="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="32dp"
+                android:id="@+id/extraBugBt">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Segnala un problema"
+                    android:id="@+id/textView21"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#ffffff" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="#5f5f5f"
+                android:padding="2dp"
+                android:layout_margin="8dp"
+                android:id="@+id/extraContactBt">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Contatta sviluppatore"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#ffffff" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Neverwas Play è un&apos;applicazione opensource senza scopo di lucro che è stata sviluppata gratuitamente a sostegno di Associazione Smart e Neverwas Radio. Il processo di tesing e risoluzione problemi è affidato alle segnalazioni degli utenti, per questo ti invitiamo a scrivere se riscontri malfunzionamenti."
+                android:id="@+id/textView22"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:layout_marginBottom="48dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

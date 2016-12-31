@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.10.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="53df71a373e68311fc2c587aa814db7f366ace95">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/com.facebook.android-facebook-android-sdk-4.10.1_f61f139daf88f526fe47ee20e1a6961be0bf9e79.jar" />
+    </item>
+    <item
+        jar="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/libGoogleAnalyticsServices_2743f5ca91dfaf33f203ec562eec46c3e726f693.jar" />
+    </item>
+    <item
+        jar="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/internal_impl-23.2.0_d33f6f93304ad6393c38a13ecca003eed0701fdd.jar" />
+    </item>
+    <item
+        jar="/Users/Giovanni/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.3.0/bc535105332645408ef5f1380215cc954b842178/bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/bolts-applinks-1.3.0_33a49a2becfc9beb48ee5493a2c951ddb91c6da3.jar" />
+    </item>
+    <item
+        jar="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/com.android.support-cardview-v7-23.2.0_229d27977429af4fadde34ee58484a1350e13ded.jar" />
+    </item>
+    <item
+        jar="/Users/Giovanni/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.3.0/8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c/bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/bolts-tasks-1.3.0_c3a51867b09e5677ead57618e3f3e5195fce602f.jar" />
+    </item>
+    <item
+        jar="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6fc4c7067459e8d69e1bbcb3a8973cdd84d5d87b">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/internal_impl-22.2.1_f81b65ea1a730f61a0b2ece28cd5619381cbb5b5.jar" />
+    </item>
+    <item
+        jar="/Users/Giovanni/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/support-annotations-23.2.0_4878f51c6cc217367085d03efd379e61e24999fc.jar" />
+    </item>
+    <item
+        jar="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c4caf832116bca1f2e140bf1fb600e2edd190837">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/com.android.support-support-v13-22.2.1_2f6d9ba3f08d6a91bf05e2dc3dbe2a35d3530b43.jar" />
+    </item>
+    <item
+        jar="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/Giovanni/Desktop/NeverwasPlay_Android/NeverwasPlayer/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.2.0_6c83dc90af5b938258326cb14974550fbd5b614a.jar" />
+    </item>
+
+</items>

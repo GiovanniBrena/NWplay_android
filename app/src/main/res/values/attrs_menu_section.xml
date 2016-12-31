@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="MenuSection">
+        <attr name="menuSectionLabel" format="string" />
+        <attr name="menuSectionDimension" format="dimension" />
+        <attr name="menuSectionBackground" format="color" />
+        <attr name="menuSectionIcon" format="color|reference" />
+        <attr name="menuSectionSquare" format="boolean" />
+    </declare-styleable>
+</resources>

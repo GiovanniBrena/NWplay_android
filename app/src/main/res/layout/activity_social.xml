@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neverwasradio.neverwasplayer.UI.Activities.SocialActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView9"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/nw_logo_2"
+                android:layout_marginTop="48dp" />
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="#5f5f5f"
+                android:padding="2dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="32dp"
+                android:id="@+id/socialWebsiteBt">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Visita sito"
+                    android:id="@+id/textView4"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#ffffff" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="#5f5f5f"
+                android:padding="2dp"
+                android:layout_margin="8dp"
+                android:id="@+id/socialEmailBt">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Scrivi email"
+                    android:id="@+id/textView2"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#ffffff" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Social"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:id="@+id/socialFbBt"
+                    android:src="@drawable/social_fb"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="16dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:id="@+id/socialTwBt"
+                    android:src="@drawable/social_tw"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/socialFbBt"
+                    android:layout_toEndOf="@+id/socialFbBt"
+                    android:layout_margin="16dp" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:id="@+id/socialYtBt"
+                    android:src="@drawable/social_yt"
+                    android:layout_below="@+id/socialFbBt"
+                    android:layout_alignLeft="@+id/socialFbBt"
+                    android:layout_alignStart="@+id/socialFbBt" />
+
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:id="@+id/socialInstaBt"
+                    android:src="@drawable/social_insta"
+                    android:layout_below="@+id/socialTwBt"
+                    android:layout_alignLeft="@+id/socialTwBt"
+                    android:layout_alignStart="@+id/socialTwBt" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

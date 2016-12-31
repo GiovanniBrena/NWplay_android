@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neverwasradio.neverwasplayer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".UI.Activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Core.PlayerService"
+            android:exported="false" />
+
+        <activity
+            android:name=".UI.Activities.ChatActivity"
+            android:label="@string/title_activity_chat"
+            android:parentActivityName=".UI.Activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.neverwasradio.neverwasplayer.UI.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.Activities.ProgramsActivity"
+            android:label="@string/title_activity_programs"
+            android:parentActivityName=".UI.Activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.neverwasradio.neverwasplayer.UI.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.Activities.ProgramDetailActivity"
+            android:label="@string/title_activity_program_detail"
+            android:parentActivityName=".UI.Activities.ProgramsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.neverwasradio.neverwasplayer.UI.Activities.ProgramsActivity" />
+        </activity>
+        <activity
+            android:name=".UI.Activities.NewsActivity"
+            android:label="@string/title_activity_news"
+            android:parentActivityName=".UI.Activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.neverwasradio.neverwasplayer.UI.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.Activities.SocialActivity"
+            android:label="@string/title_activity_social"
+            android:parentActivityName=".UI.Activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.neverwasradio.neverwasplayer.UI.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".UI.Activities.ExtraActivity"></activity>
+    </application>
+
+</manifest>

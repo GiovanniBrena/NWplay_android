@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="DayButton">
+        <attr name="dayString" format="string" />
+        <attr name="dayDimension" format="dimension" />
+        <attr name="dayColor" format="color" />
+        <attr name="dayDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>
