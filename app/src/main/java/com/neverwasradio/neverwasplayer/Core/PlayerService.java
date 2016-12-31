@@ -41,7 +41,7 @@ public class PlayerService extends IntentService {
     private static boolean fistRun =true;
     private static MediaPlayer player;
     private static MediaPlayer.TrackInfo trackInfo[];
-    public static final String RADIO_URL_SOURCE = "http://www.associazionesmart.it/cgi-bin/picoreader.cgi?user=neverwas&r=1362900603&f=file.mp3";
+    public static final String RADIO_URL_SOURCE = "http://5.135.39.189:8098/stream";
 
     public static boolean isActive() {return active;}
     public static boolean isReady() {return ready;}
